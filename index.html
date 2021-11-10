@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <title>project</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
     
     <!--main section-->
-    <section id="main_banner">
-      <div id="main_banner-overlay">
+    <section class="mainpage-section" id="main_banner">
+      
         <!--navbar-->
     <nav id="navbar" >
       <div id="logo">
@@ -25,15 +25,23 @@
         </ul>
       </div>
     </nav>
-      </div>
+    <div class="maingpage-content">
+      <div>
+    <h1 class="mainpage-title">Model Y</h1>
+    <a href=""><h4 class="mainpage-subtitle">시승 신청</h4></a></div>
+    <div class="maingpage-button"><button type="button" class="mainpage-button1" onclick="window.open('https://www.naver.com/');">주문하기</button>
+    <button type="button" class="maingpage-button2" onclick="window.open('https://www.naver.com/');">자세히 알아보기</button></div>
+  </div>
     </section>
 
     <!--second _banner-->
-    <section id="second_banner">
-      <div id="second_banner-overay"></div>
+    <section class="mainpage-section" id="second_banner">
+      <div id="second_banner-overay">
+      
+      </div>
     </section>
-    <section id="third_banner"></section>
-    <section id="forth_banner"></section>
-    <section id="last_banner"></section>
+    <section class="mainpage-section" id="third_banner"></section>
+    <section class="mainpage-section" id="forth_banner"></section>
+    <section class="mainpage-section" id="last_banner"></section>
   </body>
 </html>

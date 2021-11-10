@@ -1,0 +1,104 @@
+#navbar {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#logo {
+  padding-left: 50px;
+}
+
+#menu_item {
+  width: 100%;
+}
+
+#menu {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding-right: 150px;
+}
+
+.menu_items {
+  padding-right: 30px;
+  color: var(--color-light-black);
+}
+
+.mainpage-section {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* 
+    #main_banner-overlay {
+      position: relative;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      배너 오버레이 
+    } */
+
+#main_banner {
+  background-image: url("../image/main/main_banner.jpg");
+}
+
+.maingpage-content {
+  align-content: space-around;
+}
+
+.mainpage-title {
+  padding-top: 100px;
+  font-weight: var(--weight-semi-bold);
+  color: var(--color-grey);
+  text-align: center;
+}
+
+.mainpage-subtitle {
+  font-weight: var(--weight-regular);
+  color: var(--color-light-black);
+  text-align: center;
+}
+
+.maingpage-button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mainpage-button1 {
+  display: block; /*button은 기본적으로 inline-block이기 때문에 내가 원하는 데로 정렬하려면 block으로 만들어 줘야 한다.*/
+  color: var(--color-white);
+  background-color: var(--color-grey);
+  padding: 10px 40px;
+  border: 0px;
+  text-align: center;
+}
+
+.maingpage-button2 {
+  display: block;
+  color: var(--color-grey);
+  background-color: var(--color-white);
+  padding: 10px 40px;
+  border: 0px;
+}
+
+#second_banner {
+  background-image: url("../image/main/second_banner.jpg");
+}
+
+#third_banner {
+  background-image: url("../image/main/third_banner.jpg");
+
+  background-position: bottom;
+}
+
+#forth_banner {
+  background-image: url("../image/main/forth_banner.jpg");
+  background-position: bottom;
+}
+
+#last_banner {
+  background-image: url("../image/main/last_banner.jpg");
+}
