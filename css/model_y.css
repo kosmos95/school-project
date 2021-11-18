@@ -1,0 +1,39 @@
+#model_banner1 {
+  background-image: url("../image/model/first_banner.jpg");
+}
+
+.modelsection {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#model-menu_item {
+  width: 100%;
+}
+#model-menu {
+  display: flex;
+  justify-content: center;
+  padding-right: 150px;
+}
+
+.model-menu_items {
+  padding-right: 30px;
+  color: var(--color-dark-white);
+}
+
+.model-content {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.model-title {
+  padding-top: 50px;
+  font-weight: var(--weight-semi-bold);
+  color: var(--color-white);
+  text-align: center;
+}
