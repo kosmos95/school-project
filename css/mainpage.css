@@ -117,7 +117,8 @@
 }
 
 .maintitle {
-  margin-top: 40px;
+  /* margin-top: 40px; */
+  margin-top: 1.3em;
 }
 .subtitle2 {
   text-decoration: underline white;
@@ -133,20 +134,23 @@
 
 #forth_banner {
   background-image: url("../image/main/forth_banner.jpg");
-  background-position: bottom;
+  background-position: center;
 }
 
 #last_banner {
   background-image: url("../image/main/last_banner.jpg");
+  background-position: center;
 }
 
 .mainpage-title_last {
   font-size: 34px;
+  margin-top: 1.3em;
 }
 
 .footer-items {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .footer-link {
