@@ -25,7 +25,7 @@
 }
 
 .model-content {
-  height: 80vh;
+  height: 88vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -36,4 +36,28 @@
   font-weight: var(--weight-semi-bold);
   color: var(--color-white);
   text-align: center;
+}
+
+.under-content {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.under-content_text {
+  margin: 0 30px;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.under-content_text p {
+  font-size: var(--font-micro);
+}
+
+.model-button_white {
+  padding: 15px 35px;
+  background-color: inherit;
+  border: 3px solid var(--color-white);
+  color: var(--color-white);
+  line-height: 10px;
 }
