@@ -16,10 +16,24 @@
 #model-menu {
   display: flex;
   justify-content: center;
-  padding-right: 150px;
+  padding-left: 250px;
 }
 
 .model-menu_items {
+  padding-right: 30px;
+  color: var(--color-dark-white);
+}
+
+#model-shop_item {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+#model-shop {
+  display: flex;
+}
+
+.model-shop_items {
   padding-right: 30px;
   color: var(--color-dark-white);
 }
