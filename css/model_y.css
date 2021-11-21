@@ -165,21 +165,45 @@
   width: 100%;
   height: 80vh;
 }
-.model-content3_background {
+
+.model-content3_up_content {
   width: 100%;
   height: 100%;
-  z-index: 2;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .model-content3_up_caption {
-  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  margin-right: 40px;
+  margin-bottom: 60px;
+}
 
-  left: 0;
-  bottom: 0;
-  width: 100px;
-  height: 100px;
+.model-content3_up_caption1 {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+
+.model-content3_up_caption2 {
+  text-align: center;
 }
 
 .model-content3_up_title {
-  color: var(--color-black);
+  color: var(--color-white);
+}
+
+.model-content3_up_img {
+  height: 40px;
+  width: auto;
+}
+
+.model-content_up_p {
+  color: var(--color-white);
+  font-size: var(--font-micro);
+  line-height: 18px;
 }
