@@ -152,9 +152,8 @@
 }
 
 .model-content3 {
-}
-.model-content3 {
   width: 100%;
+  height: 100%;
 }
 
 .model-content3_up {
@@ -207,3 +206,35 @@
   font-size: var(--font-micro);
   line-height: 18px;
 }
+
+.model-content_down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.model-content_utility {
+  width: 335px;
+  height: auto;
+  padding: 48px 16px 48px 0;
+}
+
+.button-utility {
+  margin-top: 15px;
+}
+
+.model-content_down_right {
+  width: 630px;
+  height: auto;
+}
+
+.model-content_down_right p {
+  font-size: var(--font-small);
+}
+
+.model-content_down_p {
+  margin-top: 15px;
+}
+
+/*----------------------forth section----------------------*/
