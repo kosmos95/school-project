@@ -349,3 +349,38 @@
   color: var(--color-white);
   line-height: 36px;
 }
+
+/*----------------------last section----------------------*/
+#model-last_banner {
+  background-color: var(--color-black);
+}
+
+.last-content {
+  height: 100%;
+}
+
+.last-content_up {
+  display: flex;
+  height: 80%;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#last_button {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.last-image_section {
+  width: auto;
+}
+
+.last_content_image {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  float: right;
+}
