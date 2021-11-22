@@ -331,3 +331,21 @@
 }
 
 /*----------------------seventh section----------------------*/
+#sevnth_banner {
+  background-color: var(--color-black);
+  display: flex;
+}
+
+.black-car {
+  width: 90%;
+  height: 80%;
+}
+
+.list {
+  padding-top: 5%;
+}
+
+.list-tile_model {
+  color: var(--color-white);
+  line-height: 36px;
+}
