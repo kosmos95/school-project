@@ -146,10 +146,6 @@
 }
 
 /*----------------------third section----------------------*/
-#model_banner3 {
-  height: 100vh;
-  width: 100vw;
-}
 
 .model-content3 {
   width: 100%;
@@ -242,11 +238,6 @@
 }
 
 /*----------------------fourth section----------------------*/
-#model_banner4 {
-  width: 100vw;
-  height: 100vh;
-}
-
 .model-content4_up {
   background-image: url("../image/model/fourth_banner.jpg");
   background-position: center;
@@ -264,13 +255,13 @@
 
 .model-content5 {
   display: flex;
-  width: 100vw;
-  height: 100vh;
+  align-items: flex-start;
+  height: 100%;
 }
 
 .model-race_car {
-  width: 80vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   position: relative;
 }
 
@@ -284,10 +275,59 @@
 }
 .model-content5_right {
   height: 100%;
-  max-width: 400px;
+  width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   overflow-x: hidden;
   padding-left: 40px;
 }
+
+.model-content5_caption {
+  font-size: var(--font-small);
+
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+/*----------------------sixth section----------------------*/
+#model_banner6 {
+}
+
+.model-content6_up {
+  background-image: url("../image/model/sixth_banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+
+.model-content6_up_content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.model-content6_up_caption {
+  width: 12%;
+  margin: 40px 10px 40px 0;
+}
+
+.section6 {
+  width: 100%;
+  text-align: left;
+}
+
+.section6_icon {
+  justify-content: flex-start;
+}
+
+#banner6 {
+  height: 124px;
+}
+
+/*----------------------seventh section----------------------*/
