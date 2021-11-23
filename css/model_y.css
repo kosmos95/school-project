@@ -377,6 +377,10 @@
   display: flex;
 }
 
+.none {
+  display: none;
+}
+
 .devider {
   width: 40px;
   height: 1px;

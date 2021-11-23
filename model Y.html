@@ -291,14 +291,15 @@
           <h2 class="list-tile_model">Model Y 제원</h2>
         </div>
         <div class="list-button">
-          <div class="performance">
-            <button type="button" class="model-button_white seventh_btn" onclick="window.open('https://www.naver.com/');">performance</button>
+          <div class="performance is_on">
+            <a href="#tab1" class="btn"><button type="button" class="model-button_white seventh_btn">performance</button></a>
           </div>
           <div class="Long_Range_awd">
-            <button type="button" class="model-button_white seventh_btn" onclick="window.open('https://www.naver.com/');">Long Range AWD</button>
+            <a href="#tab2" class="btn"><button type="button" class="model-button_white seventh_btn">Long Range AWD</button></a>
           </div>
         </div>
-        <div class="list-info">
+        <div class="list-info_start">
+        <div class="list-info" id="tab1">
           <div class="list-info_left">
             <div class="list-info_left1">
             <div class="devider"></div>
@@ -368,6 +369,77 @@
             </div>
           </div>
         </div>
+        <div class="list-info none" id="tab2">
+          <div class="list-info_left">
+            <div class="list-info_left1">
+            <div class="devider"></div>
+            <p>바터리</p>
+            <p>Long Range</p>
+          </div>
+          <div class="list-info_left1">
+            <div class="devider"></div>
+            <p>가속도</p>
+            <p>3.7s 0-100 km/h*</p>
+            <p>* 롤아웃(Rollout) 스타트 제외</p>
+          </div>
+          <div class="list-info_left1">
+            <div class="devider"></div>
+            <p>주행 가능 거리 (연비)</p>
+            <p>448 km</p>
+            <p>(4.8 km/kWh)</p>
+          </div>
+          <div class="list-info_left1">
+            <div class="devider"></div>
+            <p>드라이브</p>
+            <p>듀얼 모터 상시 사륜구동 (AWD)</p>
+          </div>
+          <div class="list-info_left1">
+            <div class="devider"></div>
+            <p>좌석수</p>
+            <p>최대 5명</p>
+          </div>
+          </div>
+          <div class="list-info_right">
+            <div class="list-info_left1">
+              <div class="devider"></div>
+              <p>휠</p>
+              <p>21인치</p>
+            </div>
+            <div class="list-info_left1">
+              <div class="devider"></div>
+              <p>중량</p>
+              <p>2,000 kg</p>
+            </div>
+            <div class="list-info_left1">
+              <div class="devider"></div>
+              <p>최대 적재 공간</p>
+              <p>2,158 리터</p>
+            </div>
+            <div class="list-info_left1">
+              <div class="devider"></div>
+              <p>최고 속도</p>
+              <p>250km/h</p>
+            </div>
+            <div class="list-info_left1">
+              <div class="devider"></div>
+              <p>디스플레이</p>
+              <p>15인치 중앙 터치스크린</p>
+            </div>
+            <div class="list-info_left1">
+              <div class="devider"></div>
+              <p>수퍼차저</p>
+              <p>사용량에 따른 요금</p>
+            </div>
+            <div class="list-info_left1">
+              <div class="devider"></div>
+              <p>제품 보증</p>
+              <p>기본 차량 - 4년 또는 80,000 km (선도래 기준)</p>
+              <p>배터리 및 구동 장치 - 8년 또는</p>
+              <p>192,000 km (선도래 기준)</p>
+            </div>
+          </div>
+        </div>
+        </div>
        </div>
       </div>
      </section>
@@ -398,5 +470,6 @@
   </footer>
 </div>
 </section>
+<script src="script.js"></script>
   </body>
 </html>
